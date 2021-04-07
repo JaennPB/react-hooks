@@ -7,7 +7,10 @@ import Search from './Search';
 import ErrorModal from '../UI/ErrorModal';
 
 const Ingredients = (props) => {
+  // ADD & DELETE
   const [ings, setIngs] = useState([]);
+
+  //UI
   const [loading, setloading] = useState(false);
   const [error, setError] = useState();
 
